@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tạo form đơn giản</title>
+  </head>
+  <body>
+    <h1>SỞ THÍCH CỦA BẠN</h1>
+    <h2>Phần 1</h2>
+    <form action="https://www.youtube.com/" method="get">
+      <div>
+        <table>
+          <tr>
+            <td><label for="Họ và tên">Họ và tên</label></td>
+            <td><input type="text" name="Họ và tên" id="Họ và tên" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="email" name="mail" id="email" /></td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <table>
+          <tr>
+            <td>Sở thích</td>
+            <td>
+              <input type="checkbox" name="Thể thao" id="hb1" />
+              <label for="hb1">Thể thao</label>
+            </td>
+            <td>
+              <input type="checkbox" name="Âm nhạc" id="hb2" />
+              <label for="hb2">Âm nhạc</label>
+            </td>
+            <td>
+              <input type="checkbox" name="Đọc sách" id="hb3" />
+              <label for="hb3">Đọc sách</label>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="checkbox" name="Lướt web" id="hb4" />
+              <label for="hb4">Lướt web</label>
+            </td>
+            <td>
+              <input type="checkbox" name="Chơi game" id="hb5" />
+              <label for="hb5">Chơi game</label>
+            </td>
+            <td>
+              <input type="checkbox" name="Điện ảnh" id="hb6" />
+              <label for="hb6">Điện ảnh</label>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="checkbox" name="Du lịch" id="hb7" />
+              <label for="hb7">Du lịch</label>
+            </td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="submit" value="Gửi thông tin" /></td>
+            <td><input type="reset" value="Nhập lại" /></td>
+          </tr>
+        </table>
+      </div>
+      <h2>Phần 2</h2>
+      <h2>ĐĂNG KÝ HỌC VIÊN</h2>
+      <div>
+        <table>
+            <tr>
+                <td><label for="họ và tên">Họ và tên</label></td>
+                <td><input type="text" name="Họ và tên" id="họ và tên" /></td>
+            </tr>
+            <tr>
+                <td><label for="ngày sinh">Ngày sinh</label></td>
+                <td><input type="date" name="Ngày sinh" id="ngày sinh" /></td>
+            </tr>
+            <tr>
+                <td><label for="Giới tính">Giới tính</label></td>
+                <td> <input type="radio" name="Giới tính" id="nam" value="nam" />
+                    <label for="nam">Nam</label>
+                    <input type="radio" name="Giới tính" id="nữ" value="nam" />
+                    <label for="nữ">Nữ</label></td>
+            </tr>
+            <tr>
+                <td><label for="Đại chỉ">Địa chỉ</label></td>
+                <td><textarea name="Địa chỉ" id="Đại chỉ"></textarea> </td>
+            </tr>
+            <tr>
+               <td><label for="Lớp">Lớp</label></td>
+               <td><select>
+                <option value="Chọn Lớp">Chọn lớp</option>
+              </select></td>
+            </tr>
+            <tr>
+                <td><label for="Email">Email</label></td>
+                <td><input type="email" name="email" id="Email" /></td>
+            </tr>
+            <tr>
+                <td><label for="Tel">Tel</label></td>
+                <td><input type="tel" name="tel" id="Tel" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Đăng ký" />
+               <input type="reset" value="Nhập lại" /></td>
+            </tr>
+      </table>
+    </form>
+  </body>
+</html>
